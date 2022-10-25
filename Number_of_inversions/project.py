@@ -32,11 +32,11 @@ def count_split_and_sort(first_list,second_list):
     return sorted
 
 graph = []
-# with open('Integer__Array.txt') as f:
-#     data = f.readlines()
-#     for line in data:
+with open('Integer__Array.txt') as f:
+    data = f.readlines()
+    for line in data:
 #         graph.append(line)
-arr = [1,2,3,4,5,6,7,8,9,0]
-print(count_and_sort(arr))
-count_and_sort(arr)
+# arr = [1,2,3,4,5,6,7,8,9,0]
+# print(count_and_sort(arr))
+count_and_sort(graph)
 print(sum_count)
